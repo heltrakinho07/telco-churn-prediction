@@ -1,0 +1,38 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Modelos treinados. Versionamos o modelo final (pequeno, 477 KB) para o deploy
+# funcionar em qualquer plataforma; ignoramos outros artefactos maiores.
+models/*.pkl
+models/baseline_logreg.joblib
+
+# Dados (boa prática: não versionar dados brutos)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Figuras geradas (opcional versionar)
+# reports/figures/*.png
+
+# MLflow (base de dados e artefactos de tracking locais)
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Pytest
+.pytest_cache/
+
+# Segredos do Streamlit (nunca versionar)
+.streamlit/secrets.toml
+
+# Sistema
+.DS_Store
+.env

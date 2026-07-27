@@ -1,0 +1,11 @@
+# Ambiente COMPLETO de desenvolvimento (treino, análise, API).
+# Instala tudo:  pip install -r requirements-dev.txt
+-r requirements.txt
+matplotlib
+seaborn
+shap
+fastapi
+uvicorn[standard]
+pydantic
+mlflow
+pytest

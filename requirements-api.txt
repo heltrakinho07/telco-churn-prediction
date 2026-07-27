@@ -1,0 +1,8 @@
+# Dependências para a API REST (FastAPI).
+pandas
+numpy
+scikit-learn
+joblib
+fastapi
+uvicorn[standard]
+pydantic

@@ -1,0 +1,62 @@
+{
+  "baseline_logreg_cv": {
+    "roc_auc": {
+      "mean": 0.8449,
+      "std": 0.0134
+    },
+    "recall": {
+      "mean": 0.8026,
+      "std": 0.0153
+    },
+    "precision": {
+      "mean": 0.5132,
+      "std": 0.007
+    },
+    "f1": {
+      "mean": 0.626,
+      "std": 0.0089
+    },
+    "accuracy": {
+      "mean": 0.7456,
+      "std": 0.0056
+    }
+  },
+  "gradient_boosting_cv": {
+    "roc_auc": {
+      "mean": 0.8419,
+      "std": 0.0124
+    },
+    "recall": {
+      "mean": 0.7763,
+      "std": 0.0182
+    },
+    "precision": {
+      "mean": 0.5252,
+      "std": 0.0149
+    },
+    "f1": {
+      "mean": 0.6266,
+      "std": 0.0162
+    },
+    "accuracy": {
+      "mean": 0.7544,
+      "std": 0.0115
+    }
+  },
+  "gradient_boosting_holdout": {
+    "roc_auc": 0.8391,
+    "recall": 0.7861,
+    "precision": 0.5194,
+    "f1": 0.6255,
+    "confusion_matrix": [
+      [
+        763,
+        272
+      ],
+      [
+        80,
+        294
+      ]
+    ]
+  }
+}

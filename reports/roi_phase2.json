@@ -1,0 +1,16 @@
+{
+  "pressupostos": {
+    "ARPU_mensal_MZN": 500,
+    "meses_valor": 12,
+    "valor_cliente_MZN": 6000,
+    "custo_campanha_MZN": 300,
+    "taxa_sucesso_retencao": 0.3
+  },
+  "clientes_contactados": 566,
+  "custo_total_MZN": 169800,
+  "clientes_retidos_estimados": 88.2,
+  "valor_salvo_MZN": 529200,
+  "lucro_liquido_MZN": 359400,
+  "roi_percent": 211.7,
+  "perda_potencial_sem_modelo_MZN": 2244000
+}

@@ -1,0 +1,9 @@
+# Dependências mínimas para CORRER a app (interface Streamlit + modelo).
+# É este ficheiro que o Streamlit Community Cloud usa no deploy.
+# scikit-learn fixado para garantir que o modelo guardado carrega sem erros.
+streamlit
+scikit-learn==1.9.0
+pandas
+numpy
+joblib
+plotly
