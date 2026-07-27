@@ -72,7 +72,7 @@ Por cada metical investido na campanha, retornam ~3.1 MZN.
 
 ## Demo
 
-**▶️ Experimenta a demo ao vivo:** https://telco-churn-prediction-cnktkq7fq58cgeir8h8yjg.streamlit.app/
+**▶️ Experimenta a demo ao vivo:** https://telco-churn-prediction-7ivwf6toppgvf9nwvp2d46.streamlit.app/
 
 Preenche os dados de um cliente e o modelo estima a probabilidade de churn em tempo real.
 
